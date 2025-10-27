@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Voluntários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">❤️ Voluntários</h1>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Início</a></li>
+                    <li><a href="cadastro.html" class="nav-link active">Cadastro</a></li>
+                    <li><a href="projeto.html" class="nav-link">Projetos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="register-section">
+            <div class="container">
+                <div class="register-content">
+                    <div class="register-form-container">
+                        <h2>Cadastre-se como Voluntário</h2>
+                        <p>Preencha os dados abaixo e comece a fazer a diferença!</p>
+                        
+                        <form id="volunteerForm" class="register-form">
+                            <div class="form-group">
+                                <label for="nome">Nome Completo *</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">E-mail *</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone">Telefone *</label>
+                                    <input type="tel" id="telefone" name="telefone" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="idade">Idade *</label>
+                                    <input type="number" id="idade" name="idade" min="16" max="100" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="cidade">Cidade *</label>
+                                    <input type="text" id="cidade" name="cidade" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="disponibilidade">Disponibilidade *</label>
+                                <select id="disponibilidade" name="disponibilidade" required>
+                                    <option value="">Selecione...</option>
+                                    <option value="manhã">Manhã</option>
+                                    <option value="tarde">Tarde</option>
+                                    <option value="noite">Noite</option>
+                                    <option value="fins-de-semana">Fins de semana</option>
+                                    <option value="flexível">Horário flexível</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Áreas de Interesse *</label>
+                                <div class="checkbox-group">
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interesses" value="doacao-alimentos">
+                                        Doação de Alimentos
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interesses" value="doacao-roupas">
+                                        Doação de Roupas
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interesses" value="acessibilidade">
+                                        Acessibilidade
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interesses" value="educacao">
+                                        Educação
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interesses" value="meio-ambiente">
+                                        Meio Ambiente
+                                    </label>
+                                    <label class="checkbox-label">
+                                        <input type="checkbox" name="interesses" value="saude">
+                                        Saúde
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="experiencia">Experiência Anterior (opcional)</label>
+                                <textarea id="experiencia" name="experiencia" rows="3" placeholder="Conte-nos sobre suas experiências anteriores como voluntário..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="motivacao">Por que quer ser voluntário? *</label>
+                                <textarea id="motivacao" name="motivacao" rows="3" required placeholder="Compartilhe sua motivação..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="termos" name="termos" required>
+                                    Aceito os <a href="#" target="_blank">termos de uso</a> e <a href="#" target="_blank">política de privacidade</a> *
+                                </label>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="btn-primary">Cadastrar</button>
+                                <button type="reset" class="btn-secondary">Limpar</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="register-image">
+                        <img src="imagem/voluntariohomem.jpg" alt="Voluntário" />
+                        <div class="register-info">
+                            <h3>Junte-se a nós!</h3>
+                            <p>Mais de 500 voluntários já fazem parte da nossa comunidade. Seja você também um agente de transformação!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="next-steps">
+            <div class="container">
+                <h2>Próximos Passos</h2>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Cadastro</h3>
+                        <p>Preencha o formulário com seus dados</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Contato</h3>
+                        <p>Nossa equipe entrará em contato em até 48h</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Treinamento</h3>
+                        <p>Participe de uma orientação sobre nossos projetos</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Ação</h3>
+                        <p>Comece a fazer a diferença na comunidade!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Voluntários. Todos os direitos reservados.</p>
+            <p>Juntos podemos transformar o mundo! ❤️</p>
+            <p style="margin-top: 1rem; font-size: 0.8rem; opacity: 0.6;">
+                <a href="admin.html" style="color: inherit; text-decoration: none;">⚙️</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
