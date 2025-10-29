@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos sociais - Conheça nossas iniciativas de voluntariado e como participar">
+    <meta name="theme-color" content="#667eea">
     <title>Projetos - Voluntários</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="nav-container">
                 <h1 class="nav-logo">❤️ Voluntários</h1>
+                <button class="nav-toggle" aria-label="Abrir menu de navegação">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link">Início</a></li>
                     <li><a href="cadastro.html" class="nav-link">Cadastro</a></li>
@@ -40,7 +49,7 @@
 
                 <div class="projects-container">
                     <div class="project-card" data-category="doacao">
-                        <img src="imagem/doaçaocomida.jpg" alt="Doação de Alimentos" />
+                        <img src="images/doaçaocomida.jpg" alt="Doação de Alimentos" />
                         <div class="project-content">
                             <h3>Alimenta Solidário</h3>
                             <p>Arrecadação e distribuição de alimentos para famílias em situação de vulnerabilidade social.</p>
@@ -58,7 +67,7 @@
                     </div>
 
                     <div class="project-card" data-category="doacao">
-                        <img src="imagem/doaçãoroupas.jpg" alt="Doação de Roupas" />
+                        <img src="images/doaçãoroupas.jpg" alt="Doação de Roupas" />
                         <div class="project-content">
                             <h3>Vestir Esperança</h3>
                             <p>Coleta, triagem e distribuição de roupas e calçados para pessoas necessitadas.</p>
@@ -76,7 +85,7 @@
                     </div>
 
                     <div class="project-card" data-category="inclusao">
-                        <img src="imagem/cadeirante.jpg" alt="Projeto Acessibilidade" />
+                        <img src="images/cadeirante.jpg" alt="Projeto Acessibilidade" />
                         <div class="project-content">
                             <h3>Caminhos Acessíveis</h3>
                             <p>Promoção da acessibilidade e inclusão de pessoas com deficiência na comunidade.</p>
@@ -94,7 +103,7 @@
                     </div>
 
                     <div class="project-card" data-category="doacao">
-                        <img src="imagem/doaçaocomida2.jpg" alt="Cesta Básica Solidária" />
+                        <img src="images/doaçaocomida2.jpg" alt="Cesta Básica Solidária" />
                         <div class="project-content">
                             <h3>Cesta Básica Solidária</h3>
                             <p>Montagem e entrega de cestas básicas para famílias cadastradas em nosso programa.</p>
@@ -112,7 +121,7 @@
                     </div>
 
                     <div class="project-card" data-category="educacao">
-                        <img src="imagem/voluntario4.jpg" alt="Educação Popular" />
+                        <img src="images/voluntario4.jpg" alt="Educação Popular" />
                         <div class="project-content">
                             <h3>Saber Compartilhado</h3>
                             <p>Aulas de reforço escolar e alfabetização para crianças e adultos da comunidade.</p>
@@ -130,7 +139,7 @@
                     </div>
 
                     <div class="project-card" data-category="saude">
-                        <img src="imagem/voluntario.jpg" alt="Saúde Comunitária" />
+                        <img src="images/voluntario.jpg" alt="Saúde Comunitária" />
                         <div class="project-content">
                             <h3>Saúde Para Todos</h3>
                             <p>Campanhas de saúde preventiva e orientação sobre cuidados básicos de saúde.</p>
@@ -155,21 +164,21 @@
                 <h2>Impacto dos Nossos Projetos</h2>
                 <div class="stats-grid">
                     <div class="stat-card">
-                        <img src="imagem/doaçaocomida3.jpg" alt="Alimentos distribuídos" />
+                        <img src="images/doaçaocomida3.jpg" alt="Alimentos distribuídos" />
                         <div class="stat-content">
                             <span class="stat-number">2.500</span>
                             <span class="stat-label">Cestas básicas distribuídas</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <img src="imagem/donations.jpg" alt="Roupas doadas" />
+                        <img src="images/donations.jpg" alt="Roupas doadas" />
                         <div class="stat-content">
                             <span class="stat-number">5.000</span>
                             <span class="stat-label">Peças de roupa doadas</span>
                         </div>
                     </div>
                     <div class="stat-card">
-                        <img src="imagem/voluntarios.jpg" alt="Pessoas atendidas" />
+                        <img src="images/voluntarios.jpg" alt="Pessoas atendidas" />
                         <div class="stat-content">
                             <span class="stat-number">1.200</span>
                             <span class="stat-label">Pessoas beneficiadas</span>
@@ -234,6 +243,18 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Botão Voltar ao Topo -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 14L12 9L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Scripts Modulares -->
+    <script src="js/navigation.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

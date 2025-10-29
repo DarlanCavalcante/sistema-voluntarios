@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sistema de cadastro para voluntários - Transforme vidas e faça a diferença na sua comunidade">
+    <meta name="theme-color" content="#667eea">
     <title>Voluntários - Transformando Vidas</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="nav-container">
                 <h1 class="nav-logo">❤️ Voluntários</h1>
+                <button class="nav-toggle" aria-label="Abrir menu de navegação">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link active">Início</a></li>
                     <li><a href="cadastro.html" class="nav-link">Cadastro</a></li>
@@ -28,7 +37,7 @@
                 <a href="cadastro.html" class="btn-primary">Cadastre-se Agora</a>
             </div>
             <div class="hero-image">
-                <img src="imagem/voluntarios.jpg" alt="Voluntários" />
+                <img src="images/voluntarios.jpg" alt="Voluntários" />
             </div>
         </section>
 
@@ -37,17 +46,17 @@
                 <h2>Nossas Causas</h2>
                 <div class="services-grid">
                     <div class="service-card">
-                        <img src="imagem/doaçaocomida.jpg" alt="Doação de Comida" />
+                        <img src="images/doaçaocomida.jpg" alt="Doação de Comida" />
                         <h3>Doação de Alimentos</h3>
                         <p>Ajude famílias necessitadas com doações de alimentos e cestas básicas.</p>
                     </div>
                     <div class="service-card">
-                        <img src="imagem/doaçãoroupas.jpg" alt="Doação de Roupas" />
+                        <img src="images/doaçãoroupas.jpg" alt="Doação de Roupas" />
                         <h3>Doação de Roupas</h3>
                         <p>Arrecade e distribua roupas para pessoas em situação de vulnerabilidade.</p>
                     </div>
                     <div class="service-card">
-                        <img src="imagem/cadeirante.jpg" alt="Acessibilidade" />
+                        <img src="images/cadeirante.jpg" alt="Acessibilidade" />
                         <h3>Acessibilidade</h3>
                         <p>Promova a inclusão e acessibilidade para pessoas com deficiência.</p>
                     </div>
@@ -70,7 +79,7 @@
                         <a href="projeto.html" class="btn-secondary">Conheça nossos projetos</a>
                     </div>
                     <div class="about-image">
-                        <img src="imagem/voluntario.jpg" alt="Voluntário ajudando" />
+                        <img src="images/voluntario.jpg" alt="Voluntário ajudando" />
                     </div>
                 </div>
             </div>
@@ -99,6 +108,58 @@
                 </div>
             </div>
         </section>
+
+        <section class="contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <p>Tem dúvidas ou quer saber mais sobre nossa organização? Entre em contato conosco!</p>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-details">
+                                <h3>E-mail</h3>
+                                <p>contato@voluntarios.org.br</p>
+                                <p>projetos@voluntarios.org.br</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-details">
+                                <h3>Telefone</h3>
+                                <p>(11) 3456-7890</p>
+                                <p>WhatsApp: (11) 99876-5432</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3>Endereço</h3>
+                                <p>Rua da Solidariedade, 123</p>
+                                <p>Centro - São Paulo/SP</p>
+                                <p>CEP: 01234-567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">🕒</div>
+                            <div class="contact-details">
+                                <h3>Horário de Atendimento</h3>
+                                <p>Segunda a Sexta: 8h às 18h</p>
+                                <p>Sábados: 8h às 12h</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-image">
+                        <img src="images/voluntarios.jpg" alt="Nossa equipe de voluntários" />
+                        <div class="contact-cta">
+                            <h3>Faça Parte!</h3>
+                            <p>Junte-se à nossa causa e ajude a transformar vidas na sua comunidade.</p>
+                            <a href="cadastro.html" class="btn-primary">Quero ser Voluntário</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -111,6 +172,18 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Botão Voltar ao Topo -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 14L12 9L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Scripts Modulares -->
+    <script src="js/navigation.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
