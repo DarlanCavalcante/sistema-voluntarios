@@ -28,11 +28,17 @@
         <nav class="navbar" role="navigation" aria-label="Navegação principal">
             <div class="nav-container">
                 <h1 class="nav-logo">❤️ Voluntários</h1>
-                <button class="nav-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="nav-menu" tabindex="0">
-                    <span class="hamburger" aria-hidden="true"></span>
-                    <span class="hamburger" aria-hidden="true"></span>
-                    <span class="hamburger" aria-hidden="true"></span>
-                </button>
+                <div class="nav-right">
+                    <button class="dark-mode-toggle" onclick="toggleDarkMode()" aria-label="Alternar modo escuro" title="Alternar modo escuro">
+                        <span class="sun-icon">☀️</span>
+                        <span class="moon-icon">🌙</span>
+                    </button>
+                    <button class="nav-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="nav-menu" tabindex="0">
+                        <span class="hamburger" aria-hidden="true"></span>
+                        <span class="hamburger" aria-hidden="true"></span>
+                        <span class="hamburger" aria-hidden="true"></span>
+                    </button>
+                </div>
                 <ul class="nav-menu" id="nav-menu" role="menubar">
                     <li role="none"><a href="index.html" class="nav-link active" role="menuitem" aria-current="page" tabindex="0">Início</a></li>
                     <li role="none"><a href="cadastro.html" class="nav-link" role="menuitem" tabindex="0">Cadastro</a></li>

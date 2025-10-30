@@ -17,25 +17,28 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         .login-container {
-            background: white;
+            background: var(--card-bg);
             padding: 3rem;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.3);
             width: 100%;
             max-width: 400px;
+            transition: background-color 0.3s ease;
         }
         .admin-dashboard {
             display: none;
             min-height: 100vh;
-            background: #f8f9ff;
+            background: var(--bg-tertiary);
+            transition: background-color 0.3s ease;
         }
         .admin-header {
-            background: white;
+            background: var(--bg-secondary);
             padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px var(--shadow-color);
             position: sticky;
             top: 0;
             z-index: 100;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
         }
         .admin-nav {
             display: flex;
@@ -45,6 +48,10 @@
         .admin-nav h1 {
             color: #667eea;
             font-size: 1.5rem;
+        }
+        
+        .dark-mode .admin-nav span {
+            color: var(--text-secondary) !important;
         }
         .admin-tabs {
             display: flex;
@@ -289,8 +296,12 @@
             <div class="container">
                 <div class="admin-nav">
                     <h1>📊 Painel Administrativo - Voluntários</h1>
-                    <div>
-                        <span id="adminUser" style="margin-right: 1rem; color: #666;"></span>
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <button class="dark-mode-toggle" onclick="toggleDarkMode()" aria-label="Alternar modo escuro" title="Alternar modo escuro" style="background: rgba(102, 126, 234, 0.1); border: 2px solid rgba(102, 126, 234, 0.2); color: #667eea;">
+                            <span class="sun-icon">☀️</span>
+                            <span class="moon-icon">🌙</span>
+                        </button>
+                        <span id="adminUser" style="color: #666;"></span>
                         <button class="logout-btn" onclick="logout()">Sair</button>
                     </div>
                 </div>
@@ -495,6 +506,7 @@
         </main>
     </div>
 
+    <script src="js/accessibility.js"></script>
     <script src="admin.js"></script>
 </body>
 </html>

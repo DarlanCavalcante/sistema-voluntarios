@@ -15,11 +15,17 @@
         <nav class="navbar">
             <div class="nav-container">
                 <h1 class="nav-logo">❤️ Voluntários</h1>
-                <button class="nav-toggle" aria-label="Abrir menu de navegação">
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                    <span class="hamburger"></span>
-                </button>
+                <div class="nav-right">
+                    <button class="dark-mode-toggle" onclick="toggleDarkMode()" aria-label="Alternar modo escuro" title="Alternar modo escuro">
+                        <span class="sun-icon">☀️</span>
+                        <span class="moon-icon">🌙</span>
+                    </button>
+                    <button class="nav-toggle" aria-label="Abrir menu de navegação">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" class="nav-link">Início</a></li>
                     <li><a href="cadastro.html" class="nav-link">Cadastro</a></li>
@@ -251,6 +257,7 @@
     </button>
 
     <!-- Scripts Modulares -->
+    <script src="js/accessibility.js"></script>
     <script src="js/navigation.js"></script>
     <script src="js/forms.js"></script>
     <script src="js/animations.js"></script>
